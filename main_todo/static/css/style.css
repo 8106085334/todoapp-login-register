@@ -1,0 +1,58 @@
+/* Background */
+body {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Updated gradient for a fresh look */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Add more padding for a larger form */
+}
+
+/* Form Control Styling */
+.form-control {
+    height: 45px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: #feb47b; /* Updated focus color */
+    box-shadow: 0 0 4px rgba(254, 180, 123, 0.4);
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #ff7e5f;
+    border-color: #ff7e5f;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #feb47b;
+    border-color: #feb47b;
+}
+
+/* Link Styling */
+a {
+    color: #ff7e5f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #feb47b;
+    text-decoration: underline;
+}
+
+/* Additional Styling for Register Page */
+.card h2 {
+    color: #ff7e5f;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
